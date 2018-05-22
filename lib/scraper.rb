@@ -22,7 +22,7 @@ class Scraper
   end #def get_page
 
   def get_courses
-+    self.get_page.css(".post")
-+  end
+    self.get_page.css(".post")
+  end
 
 end #class Scraper
